@@ -175,22 +175,7 @@ p{
     width: 50px;
 }
 
-/* @media screen  and (max-width:990px){
-    .section{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 2rem 50px;
-    }
-    
-}
 
-
-
-@media screen  and (max-width:500px){
-    .section{
-        grid-template-columns: 1fr;
-    } 
-    
-} */
 a{
     text-decoration: none;
     color: white;
@@ -218,7 +203,7 @@ a{
     display: none;
 } 
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:500px) {
     .hamburger{
         border:0;
         background-color: transparent;
