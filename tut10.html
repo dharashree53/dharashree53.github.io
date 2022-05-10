@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=di, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    section {
+        padding-top: 40px;
+    }
+
+    section .content {
+        width: 80%;
+        margin: 40px auto;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .about .about-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section .title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    section .title span {
+        color: #0E2431;
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 8px;
+    }
+
+    section .title span::before,
+    section .title span::after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #4070f4;
+        left: 0;
+        bottom: 0;
+    }
+
+    section .title span::after {
+        bottom: -7px;
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about .about-details .left {
+        width: 45%;
+    }
+
+    .about .left img {
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .about-details .right {
+        width: 55%;
+    }
+
+    section .topic {
+        color: #0E2431;
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .about-details .right p {
+        text-align: justify;
+        color: #0E2431;
+    }
+
+    /* section .button{
+    margin: 16px 0;
+  } */
+    /* section .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #4070f4;
+    color: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  section .button button:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  } */
+</style>
+
+<body>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="me1.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div class="topic">Hi,there!</div>
+                    <p> I'm Dhrashree Mishra, currently doing my graduation from Information Technology Branch. I have a
+                        passion to learn about new things. I live in Raipur Chhattisgarh.I have completed my schooling
+                        from DPS Raipur. In my free time I write, draw and bake. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolore, ab at tenetur, laudantium id facere saepe quaerat, dolores veritatis
+                        temporibus amet ratione quasi incidunt itaque accusamus eum quidem rem animi. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
