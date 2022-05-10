@@ -203,7 +203,7 @@ a{
     display: none;
 } 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
    
  .hero{
     background-color: blue;
