@@ -247,4 +247,7 @@ a{
    .img-main{
     display: none;
   }
+  .headshot{
+      width:180px;
+   }
 }
