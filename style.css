@@ -185,7 +185,7 @@ p{
 
 
 
-@media screen  and (max-width:650px){
+@media screen  and (max-width:500px){
     .section{
         grid-template-columns: 1fr;
     } 
@@ -253,5 +253,7 @@ a{
        display: none;
    } 
 
-   
+   .img-main{
+    display: none;
+  }
 }
